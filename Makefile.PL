@@ -1,19 +1,19 @@
 use inc::Module::Install;
-name 'Lingua-JA-Halfwidth-Katakana';
+name     'Lingua-JA-Halfwidth-Katakana';
 all_from 'lib/Lingua/JA/Halfwidth/Katakana.pm';
-
-#requires 'Any::Moose';
-requires 'Carp';
 
 tests 't/*.t';
 author_tests 'xt';
 
 test_requires 'Test::More' => 0.88; # done_testing
+test_requires 'Test::Base';
 
-auto_set_repository;
-auto_include;
+readme_from 'lib/Lingua/JA/Halfwidth/Katakana.pm';
 
-readmefrom 'lib/Lingua/JA/Halfwidth/Katakana.pm';
-#resources_repository => ''
+resources(
+    license    => 'http://dev.perl.org/licenses',
+    repository => 'https://github.com/pawa-/Lingua-JA-Halfwidth-Katakana',
+    bugtracker => 'https://github.com/pawa-/Lingua-JA-Halfwidth-Katakana',
+);
 
 WriteAll;
