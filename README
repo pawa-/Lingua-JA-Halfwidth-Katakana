@@ -21,7 +21,7 @@ DESCRIPTION
       HALFWIDTH IDEOGRAPHIC COMMA
 
 AUTHOR
-    pawa- <pawapawa@cpan.org>
+    pawa <pawapawa@cpan.org>
 
 SEE ALSO
     Lingua::JA::Halfwidth

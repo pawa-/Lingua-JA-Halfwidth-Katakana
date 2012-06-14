@@ -13,7 +13,7 @@ readme_from 'lib/Lingua/JA/Halfwidth/Katakana.pm';
 resources(
     license    => 'http://dev.perl.org/licenses',
     repository => 'https://github.com/pawa-/Lingua-JA-Halfwidth-Katakana',
-    bugtracker => 'https://github.com/pawa-/Lingua-JA-Halfwidth-Katakana',
+    bugtracker => 'https://github.com/pawa-/Lingua-JA-Halfwidth-Katakana/issues',
 );
 
 WriteAll;

@@ -44,7 +44,7 @@ The following chars are not contained:
 
 =head1 AUTHOR
 
-pawa- E<lt>pawapawa@cpan.orgE<gt>
+pawa E<lt>pawapawa@cpan.orgE<gt>
 
 =head1 SEE ALSO
 
