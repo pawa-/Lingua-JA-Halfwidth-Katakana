@@ -1,4 +1,5 @@
 use inc::Module::Install;
+
 name     'Lingua-JA-Halfwidth-Katakana';
 all_from 'lib/Lingua/JA/Halfwidth/Katakana.pm';
 
